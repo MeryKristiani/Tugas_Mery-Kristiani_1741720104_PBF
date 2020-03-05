@@ -17,7 +17,7 @@ class BlogPost extends Component {      // komponen state dari React untuk state
       };
 
     ambilDataDariServerAPI = () => {
-        fetch('http://localhost:3001/posts')
+        fetch('http://localhost:3001/posts?_sort=id&_order=desc')
         .then(response => response.json())
         .then(jsonHasilAmbilDariAPI => {
             this.setState( {
