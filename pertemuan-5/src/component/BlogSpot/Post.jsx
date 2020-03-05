@@ -1,18 +1,27 @@
 import React from "react";
 
-const Post = (props) => {
-    return (
-        <div className="artikel">
-            <div className="gambar-artikel">
-                <img src="http://placeimg.com/640/480/any" alt="Gambar Tumbnail Artikel"/>
-            </div>
-            <div className="konten-artikel">
-                <div className="judul-artikel">{props.judul}</div>
-                <p className="isi-artikel">{props.isi}</p>
-                <button className="btn btn-sm btn-warning" onClick={props.hapusArtikel}>Hapus></button>
-            </div>
-        </div>
-    )
-}
+const Post = props => {
+  return (
+    <div className="artikel">
+      <div className="gambar-artikel">
+        <img
+          src="http://placeimg.com/80/80/tech"
+          alt="Gambar Thumbnail Arikel"
+        ></img>
+      </div>
+      <div className="konten-artikel">
+        <p className="nim">NIM: {props.nim}</p>
+        <p className="nama">Nama: {props.nama}</p>
+        <p className="alamat">Alamat: {props.alamat}</p>
+        <p className="hp">Nomor HP: {props.hp}</p>
+        <p className="angkatan">Angkatan (Tahun): {props.angkatan}</p>
+        <p className="status">Status: {props.status}</p>
+        <button className="btn btn-sm btn-warning" onClick={() => props.hapusArtikel(props.idMahasiswa)}>
+          Hapus
+        </button>
+      </div>
+    </div>
+  );
+};
 
 export default Post;
