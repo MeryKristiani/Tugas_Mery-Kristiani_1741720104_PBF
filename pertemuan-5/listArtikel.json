@@ -8,6 +8,15 @@
       "hp": "085719204124",
       "angkatan": "2017",
       "status": "Aktif"
+    },
+    {
+      "id": 1,
+      "nim": 1,
+      "nama": "",
+      "alamat": "",
+      "hp": "",
+      "angkatan": 1,
+      "status": ""
     }
   ],
   "comments": [],
