@@ -1,0 +1,104 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  font-family: 'Impact';
+  font-size: x-large;
+}
+
+.navbar2 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+}
+
+
+.navbar3 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1px;
+  text-decoration: none;
+}
+
+.container{
+  padding: 1px;
+}
+
+.div{
+  margin: auto;
+  width: 350px;
+  border: 3px solid #f1f1f1;
+  padding: 10px;
+}
+
+form{
+  width: 350px;
+}
+
+input[type=text], input[type=password]{
+  width: 70%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn{
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer{
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+.Caption {
+  font-family: Impact;
+  font-size: xx-large;
+  color: #00008B;
+}
+
+.Caption1 {
+  font-family: sans-serif;
+  font-size: x-large;
+  color: black;
+}
+
+h2 {
+  font-family: Impact;
+  font-size: xx-large;
+  color: black;
+}
+
+tr {
+  font-family: sans-serif;
+  font-size: x-large;
+}
