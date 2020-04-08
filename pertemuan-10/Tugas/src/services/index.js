@@ -3,13 +3,13 @@ import PostAPI from "./Post";
 import DeleteAPI from "./Delete";
 
 // Daftar API - GET
-const getNewsBlog = () => GetAPI('posts?_sort=id&_order=desc');
+const getNewsBlog = () => GetAPI('mahasiswa?_sort=id&_order=desc');
 
 // Daftar API - POST
-const postNewsBlog = (dataYgDiKirim) => PostAPI('post', dataYgDiKirim);
+const postNewsBlog = (dataYgDiKirim) => PostAPI('mahasiswa', dataYgDiKirim);
 
 // Daftar API - DELETE
-const deleteNewsBlog = (dataYgDiHapus) => DeleteAPI('post', dataYgDiHapus);
+const deleteNewsBlog = (dataYgDiHapus) => DeleteAPI('mahasiswa', dataYgDiHapus);
 
 const API = {           // inisialisasi function-function yang akan disediakan global API.
     getNewsBlog,

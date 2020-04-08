@@ -2,6 +2,8 @@ import React, {Component} from "react";
 import './BlogPost.css';
 import Post from "../../component/BlogSpot/Post";
 
+import API from "../../services";
+
 class BlogPost extends Component {      // komponen state dari React untuk statefull component
     state = {
         listArtikel: [],
@@ -17,11 +19,9 @@ class BlogPost extends Component {      // komponen state dari React untuk state
       };
 
     ambilDataDariServerAPI = () => {
-        fetch('http://localhost:3001/posts?_sort=id&_order=desc')
-        .then(response => response.json())
-        .then(jsonHasilAmbilDariAPI => {
+          API.getNewsBlog().then(result => {
             this.setState( {
-                listArtikel: jsonHasilAmbilDariAPI
+                listArtikel: result
             })
         })
     }
@@ -31,8 +31,8 @@ class BlogPost extends Component {      // komponen state dari React untuk state
     }
 
     handleHapusArtikel = (data) => {
-        fetch(`http://localhost:3001/posts/${data}`, {method: 'DELETE'})
-        .then(res => {
+      API.deleteNewsBlog(data)
+        .then(response => {
             this.ambilDataDariServerAPI()
         })
     }
@@ -48,17 +48,10 @@ class BlogPost extends Component {      // komponen state dari React untuk state
     }
 
     handleTombolSimpan = () => {
-        fetch('http://localhost:3001/posts', {
-            method: 'post',
-            headers: {
-                'Accept': 'application/json',
-                'Content-type': 'application/json'
-            },
-            body: JSON.stringify(this.state.insertArtikel)
-        })
-            .then((Response) => {
-                this.ambilDataDariServerAPI();
-            });
+      API.postNewsBlog(this.state.insertArtikel)
+        .then((Response) => {
+            this.ambilDataDariServerAPI();
+        });
     }
 
     render() {
