@@ -1,0 +1,26 @@
+{
+  "posts": [
+    {
+      "id": 1583421379119,
+      "nim": "1741720199",
+      "nama": "Nadeo Argawinata",
+      "alamat": "Kediri",
+      "hp": "085719204124",
+      "angkatan": "2017",
+      "status": "Aktif"
+    },
+    {
+      "id": 1,
+      "nim": 1,
+      "nama": "",
+      "alamat": "",
+      "hp": "",
+      "angkatan": 1,
+      "status": ""
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
