@@ -45,7 +45,7 @@ const Join = () => {
                         const googleAuthProvider = new firebase.auth.GoogleAuthProvider();
                         firebase
                         .auth()
-                        .signInWithPopup(googleAuthProvider)
+                        .WithPopup(googleAuthProvider)
                         .then(res => {
                             if (res.user) Auth.setLoggedIn(true);
                         })
