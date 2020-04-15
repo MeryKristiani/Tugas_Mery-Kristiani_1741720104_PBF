@@ -40,12 +40,22 @@ const Join = () => {
                     placeholder="password" 
                 />
                 <hr />
-                <button class="googleBtn" type="button">
+                <button class="googleBtn" type="button"
+                    onClick={() => {
+                        const googleAuthProvider = new firebase.auth.GoogleAuthProvider();
+                        firebase
+                        .auth()
+                        .signInWithPopup(googleAuthProvider)
+                        .then(res => {
+                            if (res.user) Auth.setLoggedIn(true);
+                        })
+                    }}
+                >
                     <img 
                         scr="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
                         alt="logo"
                     />
-                    Join With Google
+                    Join with Google
                 </button>
 
                 <button type="submit">Login</button>
