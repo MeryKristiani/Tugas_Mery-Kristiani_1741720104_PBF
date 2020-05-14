@@ -1,0 +1,713 @@
+/* body {
+    background: url("./img/bg18.jpg")  no-repeat center fixed;    
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: fixed;
+} */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.auth-wrapper .form-control:focus {
+  border-color: #167bff;
+  box-shadow: none;
+}
+
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+/* .auth-inner {
+  width: 413px;
+  height: 55px;
+  left: 68px;
+  top: 180px;
+  position: absolute;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+} */
+
+@font-face {
+  font-family: tulisan_keren2;
+  src: url("./font/Cc.ttf");
+}
+
+h1{
+  position: absolute;
+  font-family: 'tulisan_keren2';
+  font-variant: inherit;
+  width: 413px;
+  height: 55px;
+  left: 100px;
+  top: 270px;
+  font-size: 45px;
+  color: whitesmoke;
+}
+
+.h1-1{
+  position: absolute;
+  font-family: 'tulisan_keren2';
+  font-variant: inherit;
+  width: 1000px;
+  height: 55px;
+  left: 100px;
+  top: 200px;
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+.h1-2{
+  position: center;
+  font-family: 'tulisan_keren2';
+  font-variant: inherit;
+  width: 1450px;
+  height: 55px;
+  left: 100px;
+  top: 400px;
+  font-size: 40px;
+  color: whitesmoke;
+}
+
+.h1-3{
+  position: absolute;
+  font-family: 'tulisan_keren2';
+  font-variant: inherit;
+  width: 413px;
+  height: 55px;
+  left: 100px;
+  top: 315px;
+  font-size: 45px;
+  color: whitesmoke;
+}
+
+.h1-4{
+  position: absolute;
+  font-family: 'tulisan_keren2';
+  font-variant: inherit;
+  width: 413px;
+  height: 55px;
+  left: 100px;
+  top: 600px;
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+p{
+  position: absolute;
+  font-family: 'tulisan_keren2';
+  font-variant: inherit;
+  width: 1450px;
+  height: 55px;
+  left: 100px;
+  top: 500px;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+.p1{
+  position: absolute;
+  font-family: 'tulisan_keren2';
+  font-variant: inherit;
+  width: 1450px;
+  height: 55px;
+  left: 100px;
+  top: 300px;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+.text_content{
+  text-indent: 60px;
+}
+
+body, html, #root, .auth-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: tulisan_keren;
+  src: url("./font/PaybAck.ttf");
+}
+
+.navbar-brand{
+  font-family: 'tulisan_keren';
+  font-size: 60px;
+  font-variant: inherit;
+  color: whitesmoke;
+}
+
+@font-face {
+  font-family: tulisan_keren1;
+  src: url("./font/Cc.ttf");
+}
+
+.nav-item{
+  font-family: 'tulisan_keren1';
+  font-size: 38px;
+  font-variant: inherit;
+}
+
+.navbar-light {
+  background-color: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+
+/* .form-group {
+  position: absolute;
+  width: 413px;
+  height: 55px;
+  left: 102px;
+  top: 350px;
+
+  background: #FFFFFF;
+  border-radius: 14px;
+} */
+
+.form-group1 {
+  position: absolute;
+  width: 413px;
+  height: 55px;
+  left: 102px;
+  top: 450px;
+
+  background: #FFFFFF;
+  border-radius: 14px;
+}
+
+.form-group2 {
+  position: absolute;
+  width: 413px;
+  height: 55px;
+  left: 102px;
+  top: 550px;
+
+  background: #FFFFFF;
+  border-radius: 14px;
+}
+
+.form-group3 {
+  position: absolute;
+  width: 413px;
+  height: 55px;
+  left: 102px;
+  top: 650px;
+
+  background: #FFFFFF;
+  border-radius: 14px;
+}
+
+.form-group4 {
+  position: absolute;
+  width: 413px;
+  height: 55px;
+  left: 102px;
+  top: 450px;
+
+  background: #FFFFFF;
+  border-radius: 14px;
+}
+
+.form-group5 {
+  position: absolute;
+  width: 413px;
+  height: 55px;
+  left: 640px;
+  top: 270px;
+
+  background: #FFFFFF;
+  border-radius: 14px;
+}
+
+.form-group6 {
+  position: absolute;
+  width: 413px;
+  height: 55px;
+  left: 640px;
+  top: 370px;
+
+  background: #FFFFFF;
+  border-radius: 14px;
+}
+
+.form-group7 {
+  position: absolute;
+  width: 413px;
+  height: 55px;
+  left: 102px;
+  top: 350px;
+
+  background: #FFFFFF;
+  border-radius: 14px;
+}
+
+@font-face {
+  font-family: tulisan_keren3;
+  src: url("./font/Cc.ttf");
+}
+
+.ps{
+  font-family: 'tulisan_keren3';
+  font-size: 17px;
+  font-variant: inherit;
+  color: black;
+
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  left: 106px;
+  top: 550px;
+
+  background: #A6CFF5;
+  border-radius: 63px;
+}
+
+.ps1{
+  font-family: 'tulisan_keren3';
+  font-size: 17px;
+  font-variant: inherit;
+  color: black;
+
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  left: 106px;
+  top: 750px;
+
+  background: #A6CFF5;
+  border-radius: 63px;
+}
+
+.ps2{
+  font-family: 'tulisan_keren3';
+  font-size: 15px;
+  font-variant: inherit;
+  color: black;
+
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 106px;
+  top: 550px;
+
+  background: #A6CFF5;
+  border-radius: 63px;
+}
+
+.ps3{
+  font-family: 'tulisan_keren3';
+  font-size: 17px;
+  font-variant: inherit;
+  color: black;
+
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  left: 760px;
+  top: 470px;
+
+  background: #A6CFF5;
+  border-radius: 63px;
+}
+
+.ps4{
+  font-family: 'tulisan_keren3';
+  font-size: 17px;
+  font-variant: inherit;
+  color: black;
+
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  left: 760px;
+  top: 1000px;
+
+  background: #ff4040;
+  border-radius: 63px;
+}
+
+@font-face {
+  font-family: tulisan_keren5;
+  src: url("./font/Cc.ttf");
+}
+
+.fp{
+  font-family: 'tulisan_keren5';
+  font-variant: inherit;
+  color: whitesmoke;
+  font-size: 17px;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 365px;
+  top: 520px;
+  
+  border-radius: 63px;
+}
+
+@font-face {
+  font-family: tulisan_keren4;
+  src: url("./font/Cc.ttf");
+}
+
+.dn{
+  font-family: 'tulisan_keren4';
+  font-variant: inherit;
+  color: whitesmoke;
+  font-size: 15px;
+  position: absolute;
+  width: 413px;
+  height: 50px;
+  left: 110px;
+  top: 630px;
+  
+  border-radius: 63px;
+}
+
+.home{
+  font-family: 'tulisan_keren3';
+  font-size: 22px;
+  font-variant: inherit;
+  color: black;
+
+  position: absolute;
+  width: 80px;
+  left: 800px;
+  top: 42px;
+}
+
+.account{
+  font-family: 'tulisan_keren3';
+  font-size: 22px;
+  font-variant: inherit;
+  color: black;
+
+  position: absolute;
+  width: 100px;
+  left: 950px;
+  top: 42px;
+}
+
+.admin{
+  font-family: 'tulisan_keren3';
+  font-size: 22px;
+  font-variant: inherit;
+  color: black;
+
+  position: absolute;
+  width: 100px;
+  left: 1140px;
+  top: 42px;
+}
+
+@font-face {
+  font-family: tulisan_keren5;
+  src: url("./font/Corp-Bold.otf");
+}
+
+.email {
+  font-family: 'tulisan_keren5';
+  font-variant: inherit;
+  color: whitesmoke;
+  position: absolute;
+  width: 95px;
+  height: 49px;
+  left: 65px;
+  top: 300px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.015em;
+
+  color: whitesmoke;
+}
+
+.user {
+  font-family: 'tulisan_keren5';
+  font-variant: inherit;
+  color: whitesmoke;
+  position: absolute;
+  width: 95px;
+  height: 49px;
+  left: 65px;
+  top: 350px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.015em;
+
+  color: whitesmoke;
+}
+
+.gambar-event {
+  font-family: 'tulisan_keren5';
+  font-variant: inherit;
+  color: whitesmoke;
+  position: absolute;
+  width: 1000px;
+  height: 49px;
+  left: 740px;
+  top: 670px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 36px;
+  letter-spacing: 0.015em;
+
+  color: whitesmoke;
+}
+
+.nama-event {
+  font-family: 'tulisan_keren5';
+  font-variant: inherit;
+  color: black;
+  position: absolute;
+  width: 1000px;
+  height: 49px;
+  left: 750px;
+  top: 900px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 36px;
+  letter-spacing: 0.015em;
+}
+
+.isi-event {
+  font-family: 'tulisan_keren5';
+  font-variant: inherit;
+  color: black;
+  position: absolute;
+  width: 1000px;
+  height: 49px;
+  left: 750px;
+  top: 950px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 36px;
+  letter-spacing: 0.015em;
+}
+
+
+/* .post-container {
+  background:#fff;
+  padding:50px;
+  width:50%;
+  margin:40px auto;
+  box-shadow:0 5px 15px 0 rgba(46, 61, 73, 0.12);
+  font-family:'Work Sans',sans-serif;
+  }
+  
+  
+  .all_post_heading {
+    text-align:center;
+    font-weight:400;
+    font-size:40px;
+    color:#636363;
+    word-wrap: break-word;
+    }
+
+.artikel{
+  object-position: absolute;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid blue;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+  display: flex;
+}
+
+.gambar-artikel{
+  height: 80px;
+  width: 80px;
+  margin-right: 20px;
+  vertical-align: top;
+}
+
+.gambar-artikel img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.konten-artikel{
+  flex: 1;
+}
+
+.konten-artikel div.judul-artikel{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: whitesmoke;
+}
+
+.konten-artikel p.isi-artikel{
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: contents;
+  color: whitesmoke;
+}
+
+.konten-artikel div.hapus-artikel{
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: contents;
+} */
+
+/* Profil Mahasiswa */
+
+.foto-profil {
+  position: absolute;
+  width: 256px;
+  height: 256px;
+  left: 100px;
+  top: 250px;
+
+  background: #FFFFFF;
+}
+
+.nama1 {
+  font-family: 'tulisan_keren5';
+  font-variant: inherit;
+  color: whitesmoke;
+  position: absolute;
+  width: 1000px;
+  height: 49px;
+  left: 100px;
+  top: 530px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0.015em;
+
+  color: whitesmoke;
+}
+
+.ttl1 {
+  font-family: 'tulisan_keren5';
+  font-variant: inherit;
+  color: whitesmoke;
+  position: absolute;
+  width: 1000px;
+  height: 49px;
+  left: 100px;
+  top: 580px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0.015em;
+
+  color: whitesmoke;
+}
+
+.alamat1 {
+  font-family: 'tulisan_keren5';
+  font-variant: inherit;
+  color: whitesmoke;
+  position: absolute;
+  width: 1000px;
+  height: 49px;
+  left: 100px;
+  top: 630px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0.015em;
+
+  color: whitesmoke;
+}
+
+.hp1 {
+  font-family: 'tulisan_keren5';
+  font-variant: inherit;
+  color: whitesmoke;
+  position: absolute;
+  width: 1000px;
+  height: 49px;
+  left: 100px;
+  top: 680px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0.015em;
+
+  color: whitesmoke;
+}
+
+.email1 {
+  font-family: 'tulisan_keren5';
+  font-variant: inherit;
+  color: whitesmoke;
+  position: absolute;
+  width: 1000px;
+  height: 49px;
+  left: 100px;
+  top: 730px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0.015em;
+
+  color: whitesmoke;
+}
+
+.git1 {
+  font-family: 'tulisan_keren5';
+  font-variant: inherit;
+  color: whitesmoke;
+  position: absolute;
+  width: 1000px;
+  height: 49px;
+  left: 100px;
+  top: 780px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0.015em;
+
+  color: whitesmoke;
+}
+
+.nav {
+  top: 1000px;
+}

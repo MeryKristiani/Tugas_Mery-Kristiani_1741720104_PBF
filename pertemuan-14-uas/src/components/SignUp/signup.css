@@ -1,0 +1,19 @@
+body,
+html {
+    height: 100%;
+}
+
+#signUp1 {
+    background: url("../../img/bgkamera.jpg") no-repeat center fixed;
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    display: block;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    overflow: hidden;
+    height: 100%;
+}

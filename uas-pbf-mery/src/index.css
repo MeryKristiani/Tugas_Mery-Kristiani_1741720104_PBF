@@ -1,0 +1,322 @@
+body {
+  background: url("./img/bgkamera.jpg")  no-repeat center fixed;     
+  background-size: cover;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.auth-wrapper .form-control:focus {
+  border-color: #167bff;
+  box-shadow: none;
+}
+
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+.auth-inner {
+  width: 413px;
+  height: 55px;
+  left: 68px;
+  top: 180px;
+  position: absolute;
+  margin: auto;
+  /* background: #ffffff; */
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+}
+
+@font-face {
+  font-family: tulisan_keren2;
+  src: url("./font/Cc.ttf");
+}
+
+h1{
+  position: absolute;
+  font-family: 'tulisan_keren2';
+  font-variant: inherit;
+  width: 413px;
+  height: 55px;
+  left: 60px;
+  top: 90px;
+  font-size: 45px;
+  color: whitesmoke;
+}
+
+.h1-1{
+  position: absolute;
+  font-family: 'tulisan_keren2';
+  font-variant: inherit;
+  width: 1000px;
+  height: 55px;
+  left: 60px;
+  top: 10px;
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+.h1-2{
+  position: absolute;
+  font-family: 'tulisan_keren2';
+  font-variant: inherit;
+  width: 1450px;
+  height: 55px;
+  left: 60px;
+  top: 10px;
+  font-size: 40px;
+  color: whitesmoke;
+}
+
+p{
+  position: absolute;
+  font-family: 'tulisan_keren2';
+  font-variant: inherit;
+  width: 1450px;
+  height: 55px;
+  left: 60px;
+  top: 300px;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+.text_content{
+  text-indent: 60px;
+}
+
+body, html, #root, .auth-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: tulisan_keren;
+  src: url("./font/PaybAck.ttf");
+}
+
+.navbar-brand{
+  font-family: 'tulisan_keren';
+  font-size: 60px;
+  font-variant: inherit;
+  color: whitesmoke;
+}
+
+@font-face {
+  font-family: tulisan_keren1;
+  src: url("./font/Cc.ttf");
+}
+
+.nav-item{
+  font-family: 'tulisan_keren1';
+  font-size: 38px;
+  font-variant: inherit;
+}
+
+.navbar-light {
+  background-color: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+
+.form-group {
+  position: absolute;
+  width: 413px;
+  height: 55px;
+  left: 62px;
+  top: 180px;
+
+  background: #FFFFFF;
+  border-radius: 14px;
+}
+
+.form-group1 {
+  position: absolute;
+  width: 413px;
+  height: 55px;
+  left: 62px;
+  top: 280px;
+
+  background: #FFFFFF;
+  border-radius: 14px;
+}
+
+.form-group2 {
+  position: absolute;
+  width: 413px;
+  height: 55px;
+  left: 62px;
+  top: 380px;
+
+  background: #FFFFFF;
+  border-radius: 14px;
+}
+
+.form-group3 {
+  position: absolute;
+  width: 413px;
+  height: 55px;
+  left: 62px;
+  top: 480px;
+
+  background: #FFFFFF;
+  border-radius: 14px;
+}
+
+.form-group4 {
+  position: absolute;
+  width: 413px;
+  height: 55px;
+  left: 62px;
+  top: 240px;
+
+  background: #FFFFFF;
+  border-radius: 14px;
+}
+
+@font-face {
+  font-family: tulisan_keren3;
+  src: url("./font/Cc.ttf");
+}
+
+.ps{
+  font-family: 'tulisan_keren3';
+  font-size: 17px;
+  font-variant: inherit;
+  color: black;
+
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  left: 66px;
+  top: 380px;
+
+  background: #A6CFF5;
+  border-radius: 63px;
+}
+
+.ps1{
+  font-family: 'tulisan_keren3';
+  font-size: 17px;
+  font-variant: inherit;
+  color: black;
+
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  left: 66px;
+  top: 580px;
+
+  background: #A6CFF5;
+  border-radius: 63px;
+}
+
+.ps2{
+  font-family: 'tulisan_keren3';
+  font-size: 15px;
+  font-variant: inherit;
+  color: black;
+
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 66px;
+  top: 340px;
+
+  background: #A6CFF5;
+  border-radius: 63px;
+}
+
+@font-face {
+  font-family: tulisan_keren5;
+  src: url("./font/Cc.ttf");
+}
+
+.fp{
+  font-family: 'tulisan_keren5';
+  font-variant: inherit;
+  color: whitesmoke;
+  font-size: 15px;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 320px;
+  top: 350px;
+  
+  border-radius: 63px;
+}
+
+@font-face {
+  font-family: tulisan_keren4;
+  src: url("./font/Cc.ttf");
+}
+
+.dn{
+  font-family: 'tulisan_keren4';
+  font-variant: inherit;
+  color: whitesmoke;
+  font-size: 15px;
+  position: absolute;
+  width: 413px;
+  height: 50px;
+  left: 66px;
+  top: 460px;
+  
+  border-radius: 63px;
+}
+
+.home{
+  font-family: 'tulisan_keren3';
+  font-size: 22px;
+  font-variant: inherit;
+  color: black;
+
+  position: absolute;
+  width: 80px;
+  left: 800px;
+  top: 42px;
+}
+
+.account{
+  font-family: 'tulisan_keren3';
+  font-size: 22px;
+  font-variant: inherit;
+  color: black;
+
+  position: absolute;
+  width: 100px;
+  left: 950px;
+  top: 42px;
+}
+
+.admin{
+  font-family: 'tulisan_keren3';
+  font-size: 22px;
+  font-variant: inherit;
+  color: black;
+
+  position: absolute;
+  width: 100px;
+  left: 1140px;
+  top: 42px;
+}

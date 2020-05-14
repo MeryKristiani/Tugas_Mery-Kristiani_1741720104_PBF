@@ -1,0 +1,82 @@
+body,
+html {
+  height: 100%;
+}
+
+#event1 {
+  background: url("../../img/bg18.jpg") no-repeat center fixed;
+  /* position: fixed; */
+  min-width: 100%;
+  min-height: 100%;
+  display: block;
+  background-attachment: scroll;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* object-fit: cover;
+    overflow: hidden; */
+  height: 100%;
+}
+
+#all_post_heading {
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  color: #636363;
+  word-wrap: break-word;
+}
+
+@font-face {
+  font-family: tulisan_keren5;
+  src: url("../../font/Corp-Bold.otf");
+}
+
+#nama-event {
+  font-family: 'tulisan_keren5';
+  font-variant: inherit;
+  color: whitesmoke;
+  /* position: absolute;
+  width: 95px;
+  height: 49px;
+  left: 65px;
+  top: 400px; */
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0.015em;
+}
+
+@font-face {
+  font-family: tulisan_keren3;
+  src: url("../../font/Cc.ttf");
+}
+
+#save {
+  font-family: 'tulisan_keren3';
+  font-size: 17px;
+  font-variant: inherit;
+  color: black;
+
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  /* left: 106px;
+    top: 550px; */
+
+  background: #A6CFF5;
+  border-radius: 63px;
+}
+
+#h2-1 {
+  /* position: absolute; */
+  font-family: 'tulisan_keren3';
+  font-variant: inherit;
+  width: 413px;
+  height: 55px;
+  left: 100px;
+  top: 270px;
+  font-size: 30px;
+  color: whitesmoke;
+}

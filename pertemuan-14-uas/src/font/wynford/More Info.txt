@@ -1,0 +1,31 @@
+If you want the full version and license for commercial use,
+you can purchase here :
+
+https://fontkong.com/product/wynford/
+
+File include : 
+
+1. Wynford Line.otf
+2. Wynford Line.ttf
+3. Wynford Line.woff
+4. Wynford LineAlt.otf
+5. Wynford LineAlt.ttf
+6. Wynford LineAlt.woff
+7. Wynford ObiqueLine.otf
+8. Wynford ObiqueLine.ttf
+9. Wynford ObiqueLine.woff
+10. Wynford ObiqueLineAlt.otf
+11. Wynford ObiqueLineAlt.ttf
+12. Wynford ObiqueLineAlt.woff
+13. Wynford ObiqueSolid.otf
+14. Wynford ObiqueSolid.ttf
+15. Wynford ObiqueSolid.woff
+16. Wynford ObiqueSolidAlt.otf
+17. Wynford ObiqueSolidAlt.ttf
+18. Wynford ObiqueSolidAlt.woff
+19. Wynford Solid.otf
+20. Wynford Solid.ttf
+21. Wynford Solid.woff
+22. Wynford SolidAlt.otf
+23. Wynford SolidAlt.ttf
+24. Wynford SolidAlt.woff
